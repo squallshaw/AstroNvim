@@ -18,7 +18,8 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "catppuccin",
+  -- colorscheme = "catppuccin",
+  colorscheme = "gruvbox-baby",
   --colorscheme = "tokyonight",
   --colorscheme = "astrodark",
 

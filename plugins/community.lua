@@ -14,5 +14,6 @@ return {
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.git.git-blame-nvim" },
+  { import = "astrocommunity.note-taking.neorg" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }

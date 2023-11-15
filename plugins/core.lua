@@ -38,6 +38,13 @@ return {
     "rcarriga/nvim-notify",
     opts = function(_, opts) opts.background_colour = "#000000" end,
   },
+  {
+    "nvim-neorg/neorg",
+    opts = function(_, opts)
+      opts.load["core.dirman"].config =
+        { workspaces = { work = "~/Notes/work", private = "~/Notes/private" }, default_workspace = "work" }
+    end,
+  },
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --

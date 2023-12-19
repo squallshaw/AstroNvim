@@ -4,6 +4,7 @@ return {
     -- set to true or false etc.
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
+    ignorecase = true
   },
   g = {
     autoformat_enabled = false, -- enable or disable auto formatting at start (lsp.formatting.format_on_save must be enabled)
